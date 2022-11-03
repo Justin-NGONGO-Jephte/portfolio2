@@ -1,0 +1,138 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+body {
+     background-color: #f7e7b075;
+      color: #707070;
+      font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+ }
+ a {
+    color: #707070;
+    text-decoration: none;
+ }
+ .wrapper {
+      max-width: 800px;
+      margin: 40px auto;
+ }
+ header .mon_profile {
+    display: flex;
+    margin-bottom: 24px;
+ }
+ header .mon_profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ header .mon_profile .details{
+    margin-left: 25px;
+ }
+header .mon_profile h1 {
+    font-size: 3em;
+    font-weight: lighter;
+}
+header .mon_profile .details .role {
+    background-color: #68561a;
+    color: rgb(248, 238, 204);
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+header .biographie p {
+    margin-bottom: 20px;
+ }
+ header .biographie .contact {
+    display: flex;
+    justify-content: space-between;
+ }
+ header .biographie a {
+    color: #4595f4;
+    text-decoration: underline;
+ }
+ header {
+    margin-bottom: 1000px;
+ }
+ /* compétences*/
+ section .title {
+   align-items: center;
+ }
+ section .skills {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+ }
+ section .skills-items{
+    border: 1px solid #68561a;
+    border-radius: 10px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.skills .skills-items .progress {
+    font-size: 42px;
+    margin-right: 10px;
+}
+.skills .skills-items:hover,
+.langs .langs-item:hover{
+    background-color: #68561a93;
+    border: none;
+    color: rgb(247, 225, 155);  
+}
+.langs {
+    display: flex;
+    margin-top: 20px;
+}
+.langs .langs-item {
+    border: 2px solid #68561a93;
+    display : flex;
+    align-items: center;
+    margin-right: 100px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.langs .langs-item img{
+   width: 36px;
+   height: 29px;
+   margin-right: 20px;
+}
+.expert {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 15px;
+}
+.expert .expert-item {
+   width: 25%;
+   padding-right: 20px;
+}
+.expert .expert-item .timeline {
+   display: flex;
+   align-items: center
+}
+.expert .expert-item .timeline .line{
+   width: 100%;
+   margin-left: 7px;
+   height: 7%;
+   border: none;
+   height: 2px;
+   background-color: #68561a93;
+}
+.expert .expert-item .circle {
+   background-color: #68561a;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   display: block;
+}
+.expert .expert-item .timeline:hover .line,
+.expert .expert-item .timeline:hover .circle {
+   background-color: #68561a;
+}
+.expert .expert-item p{
+   margin-top: 15px;
+}
